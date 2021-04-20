@@ -20,7 +20,7 @@ client.on('message', (message) => {
     if(command === 'help'){}
     else if(message.channel.type === 'dm'){
         console.log(command+' ran in DM\nErr: Cannot run commands in DM')
-        message.reply('Err: Cannot run commands in DM (Only Help Command is permitted!)')
+        message.reply('error, cannot be done in dms')
         return
     }
 
