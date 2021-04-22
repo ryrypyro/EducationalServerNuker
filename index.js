@@ -224,3 +224,4 @@ client.login(token).catch((err) => {
 
 // node index.js to access it
 
+// remember, we are not responsible for how you use it. Use it with care and caution, don't ruin servers without consent for it's against ToS.
